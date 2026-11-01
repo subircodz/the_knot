@@ -6,7 +6,6 @@ if (menuButton && navigation) {
     const isOpen = navigation.classList.toggle("open");
     menuButton.setAttribute("aria-expanded", String(isOpen));
     menuButton.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation");
-    menuButton.textContent = isOpen ? "×" : "☰";
   });
 
   navigation.querySelectorAll("a").forEach((link) => {
@@ -14,8 +13,15 @@ if (menuButton && navigation) {
       navigation.classList.remove("open");
       menuButton.setAttribute("aria-expanded", "false");
       menuButton.setAttribute("aria-label", "Open navigation");
-      menuButton.textContent = "☰";
     });
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      navigation.classList.remove("open");
+      menuButton.setAttribute("aria-expanded", "false");
+      menuButton.setAttribute("aria-label", "Open navigation");
+    }
   });
 }
 
