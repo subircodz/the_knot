@@ -3,69 +3,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Thoughtful cakes, gifts and little celebrations from The Cozy Knot & Co.">
-  <meta name="theme-color" content="#fbf6f0">
-  <title>The Cozy Knot & Co. | Make Every Moment Feel Special</title>
+  <meta name="description" content="Cakes, flowers and thoughtful gifts for life's sweetest moments. Discover The Cozy Knot & Co.">
+  <meta name="theme-color" content="#f8f4ef">
+  <title>The Cozy Knot & Co. | Little Things, Lovely Moments</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="announcement">A little something special for every celebration <span>♡</span></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="announcement">A LITTLE JOY GOES A LONG WAY <span aria-hidden="true">✳</span> MADE FOR YOUR MOST MEANINGFUL MOMENTS</div>
   <header class="site-header">
     <a class="brand" href="#" aria-label="The Cozy Knot and Co. home">
-      <span class="brand-mark">tk<span>✳</span></span>
-      <span class="brand-name">the cozy knot <small>&amp; co.</small></span>
+      <span class="brand-symbol" aria-hidden="true">ck<span>✳</span></span>
+      <span class="brand-wordmark">the cozy knot <small>&amp; company</small></span>
     </a>
-    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
-    <nav class="main-nav" aria-label="Main navigation">
-      <a href="#shop">Shop</a><a href="#occasions">Occasions</a><a href="#story">Our story</a><a href="#contact">Contact</a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <a href="#collections">Collections</a><a href="#occasions">Occasions</a><a href="#story">Our story</a><a href="#contact">Get in touch</a>
     </nav>
-    <a class="header-cta" href="#contact">Let's celebrate <span>↗</span></a>
+    <a class="header-cta" href="#collections">Discover the good stuff <span aria-hidden="true">↗</span></a>
   </header>
 
-  <main>
+  <main id="main">
     <section class="hero">
       <div class="hero-copy">
-        <p class="eyebrow"><span></span> LITTLE JOYS, BEAUTIFULLY WRAPPED</p>
-        <h1>Make their day.<br><em>Make it memorable.</em></h1>
-        <p class="hero-text">From lovely cakes to thoughtful gifts, find all the little things that turn an ordinary day into a celebration.</p>
-        <div class="hero-actions"><a class="button button-dark" href="#shop">Explore the collection <span>↗</span></a><a class="text-link" href="#story">A little about us <span>→</span></a></div>
-        <div class="hero-note"><span class="note-heart">♡</span><span>Made for moments<br><strong>worth remembering</strong></span></div>
+        <p class="eyebrow"><span></span> THE ART OF MAKING SOMEONE'S DAY</p>
+        <h1>Little things.<br><em>Lovely moments.</em></h1>
+        <p class="hero-text">A cake for the candles. Flowers for no reason. A gift that says everything. Find thoughtful little ways to make their day feel extraordinary.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#collections">Explore our world <span aria-hidden="true">↗</span></a><a class="quiet-link" href="#story">Get to know us <span aria-hidden="true">→</span></a></div>
+        <div class="hero-footnote"><span class="footnote-mark">♡</span><span>Thoughtfully chosen, beautifully<br><strong>made to mean something.</strong></span></div>
       </div>
-      <div class="hero-art">
-        <div class="hero-image"><img src="https://images.unsplash.com/photo-1558301211-0d8c8d0b6b4a?auto=format&fit=crop&w=1200&q=85" alt="Beautiful celebration cake with soft floral styling"></div>
-        <div class="floating-card"><span>the little details</span><strong>make the<br>big memories</strong><i>♡</i></div>
-        <span class="art-spark spark-one">✳</span><span class="art-spark spark-two">✧</span>
+      <div class="hero-visual">
+        <div class="hero-photo"><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1400&q=88" alt="Elegant layered cake decorated for a celebration"></div>
+        <div class="hero-sticker"><span>FOR THE</span><strong>moments<br>that matter</strong><i aria-hidden="true">♡</i></div>
+        <span class="hero-doodle doodle-a" aria-hidden="true">✳</span><span class="hero-doodle doodle-b" aria-hidden="true">✧</span>
       </div>
+      <div class="hero-index" aria-hidden="true">01 / 04</div>
     </section>
 
-    <section class="trust-strip"><span>THOUGHTFUL GIFTING</span><i>✳</i><span>MADE FOR EVERY OCCASION</span><i>✳</i><span>CELEBRATE THE LITTLE THINGS</span></section>
+    <div class="ticker" aria-label="Cakes, flowers, gifts and celebrations"><div class="ticker-track"><span>CAKES MADE FOR SHARING</span><i>✳</i><span>GIFTS THAT FEEL PERSONAL</span><i>✳</i><span>FLOWERS JUST BECAUSE</span><i>✳</i><span>CELEBRATE THE EVERYDAY</span><i>✳</i><span>CAKES MADE FOR SHARING</span><i>✳</i><span>GIFTS THAT FEEL PERSONAL</span><i>✳</i></div></div>
 
-    <section class="section shop-section" id="shop">
-      <div class="section-heading"><div><p class="eyebrow">A LITTLE SOMETHING FOR EVERYONE</p><h2>Find your kind of <em>happy.</em></h2></div><p>Sweet treats, thoughtful surprises and beautiful bundles, all in one cozy corner.</p></div>
-      <div class="category-grid">
-        <a class="category-card category-large" href="#contact"><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1000&q=85" alt="Layered celebration cake"><span class="category-overlay"><small>BAKED WITH LOVE</small><strong>Cakes</strong><b>Explore collection ↗</b></span></a>
-        <a class="category-card" href="#contact"><img src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=800&q=85" alt="Thoughtfully wrapped gift"><span class="category-overlay"><small>A THOUGHTFUL SURPRISE</small><strong>Gifts &amp; hampers</strong><b>Explore collection ↗</b></span></a>
-        <a class="category-card" href="#contact"><img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=800&q=85" alt="Fresh flowers arranged in a bouquet"><span class="category-overlay"><small>JUST BECAUSE</small><strong>Flowers</strong><b>Explore collection ↗</b></span></a>
-        <a class="category-card" href="#contact"><img src="https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=800&q=85" alt="Festive birthday decorations"><span class="category-overlay"><small>LET'S MAKE A DAY OF IT</small><strong>Party &amp; decor</strong><b>Explore collection ↗</b></span></a>
-        <a class="category-card" href="#contact"><img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=800&q=85" alt="Gift box tied with ribbon"><span class="category-overlay"><small>THE BEST OF BOTH</small><strong>Celebration combos</strong><b>Explore collection ↗</b></span></a>
+    <section class="section collections-section" id="collections">
+      <div class="section-heading">
+        <div><p class="eyebrow">A GOOD PLACE TO START</p><h2>Find your kind of <em>happy.</em></h2></div>
+        <p>For the big days, the little wins and all the lovely in-between. Pick a little something that feels just right.</p>
       </div>
+      <div class="collection-grid">
+        <a class="collection-card collection-feature" href="#contact">
+          <img src="https://images.unsplash.com/photo-1558301211-0d8c8d0b6b4a?auto=format&fit=crop&w=1200&q=85" alt="Beautiful frosted cake ready for a celebration">
+          <span class="collection-shade"></span><span class="collection-meta"><small>01 / THE SWEET STUFF</small><strong>Cakes &amp; bakes</strong><b>Let's find your flavour ↗</b></span>
+        </a>
+        <a class="collection-card" href="#contact">
+          <img src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=900&q=85" alt="Thoughtfully wrapped gift with a ribbon">
+          <span class="collection-shade"></span><span class="collection-meta"><small>02 / WRAPPED WITH LOVE</small><strong>Gifts &amp; hampers</strong><b>Find a lovely surprise ↗</b></span>
+        </a>
+        <a class="collection-card" href="#contact">
+          <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=85" alt="Fresh seasonal flowers in soft colours">
+          <span class="collection-shade"></span><span class="collection-meta"><small>03 / A LITTLE BLOOM</small><strong>Flowers</strong><b>Send a little love ↗</b></span>
+        </a>
+        <a class="collection-card" href="#contact">
+          <img src="https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=900&q=85" alt="Colourful party decorations for a birthday">
+          <span class="collection-shade"></span><span class="collection-meta"><small>04 / LET'S MAKE A DAY OF IT</small><strong>Party &amp; decor</strong><b>Set the scene ↗</b></span>
+        </a>
+        <a class="collection-card" href="#contact">
+          <img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=900&q=85" alt="Gift box finished with a beautiful ribbon">
+          <span class="collection-shade"></span><span class="collection-meta"><small>05 / THE PERFECT PAIRING</small><strong>Celebration combos</strong><b>Make it extra special ↗</b></span>
+        </a>
+      </div>
+      <p class="section-footnote">A FEW OF OUR FAVOURITE WAYS TO MAKE SOMEONE SMILE <span>♡</span></p>
     </section>
 
     <section class="occasion-section" id="occasions">
-      <div class="occasion-inner"><div><p class="eyebrow">WHAT ARE WE CELEBRATING?</p><h2>Every occasion<br>deserves a <em>little magic.</em></h2><p>Big milestones, tiny wins or a simple “thinking of you”. There's always a reason to make someone smile.</p><a class="button button-light" href="#contact">Plan a surprise <span>↗</span></a></div>
-        <div class="occasion-list"><a href="#contact"><span>01</span> Birthdays <b>↗</b></a><a href="#contact"><span>02</span> Anniversaries <b>↗</b></a><a href="#contact"><span>03</span> Weddings &amp; engagements <b>↗</b></a><a href="#contact"><span>04</span> Just because <b>↗</b></a><a href="#contact"><span>05</span> Corporate gifting <b>↗</b></a></div>
+      <div class="occasion-inner">
+        <div class="occasion-copy"><p class="eyebrow">GIVE EVERY DAY A REASON</p><h2>There's always<br>a reason for <em>joy.</em></h2><p>Whether it's a once-in-a-lifetime milestone or a just-because kind of Tuesday, we'll help you make it count.</p><a class="button button-light" href="#contact">Make a moment <span aria-hidden="true">↗</span></a></div>
+        <div class="occasion-list"><a href="#contact"><span>01</span><strong>Birthdays</strong><b>↗</b></a><a href="#contact"><span>02</span><strong>Anniversaries</strong><b>↗</b></a><a href="#contact"><span>03</span><strong>Weddings &amp; engagements</strong><b>↗</b></a><a href="#contact"><span>04</span><strong>Just because</strong><b>↗</b></a><a href="#contact"><span>05</span><strong>Corporate gifting</strong><b>↗</b></a></div>
       </div>
+      <span class="occasion-decoration" aria-hidden="true">✳</span>
     </section>
 
-    <section class="story-section section" id="story"><div class="story-image"><img src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=1000&q=85" alt="Friends sharing a happy celebration"></div><div class="story-copy"><p class="eyebrow">A NOTE FROM OUR COZY CORNER</p><h2>It's never just a cake.<br>It's the <em>feeling.</em></h2><p>It's the smile when the box opens. The candle-lit wish. The little surprise that says “I thought of you”. At The Cozy Knot &amp; Co., we're here to help you make those moments feel a little more special.</p><p class="signature">With love, The Cozy Knot &amp; Co. ♡</p></div></section>
+    <section class="story-section section" id="story">
+      <div class="story-visual"><img src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=1100&q=85" alt="Friends enjoying a special moment together"><span class="story-caption">GOOD THINGS ARE MEANT TO BE SHARED <b>♡</b></span></div>
+      <div class="story-copy"><p class="eyebrow">A NOTE FROM OUR COZY CORNER</p><h2>It's never just<br>a <em>gift.</em></h2><p>It's the grin when the box opens. The candle-lit wish. The little surprise that says, “I thought of you.” The Cozy Knot &amp; Co. is all about those feelings, and the thoughtful details that make them stay.</p><p class="signature">With love, <span>The Cozy Knot &amp; Co.</span> ♡</p><a class="quiet-link" href="#contact">Let's make something lovely <span aria-hidden="true">→</span></a></div>
+    </section>
 
-    <section class="contact-section" id="contact"><div><p class="eyebrow">HAVE A CELEBRATION IN MIND?</p><h2>Let's make<br><em>someone smile.</em></h2><p>Tell us what you're celebrating and we'll help you find something lovely.</p></div><div class="contact-panel"><span class="contact-flower">✳</span><h3>Let's talk details.</h3><p>For orders, custom requests and corporate gifting enquiries, get in touch with our team.</p><a class="button button-dark" href="mailto:hello@thecozyknot.example?subject=An%20enquiry%20for%20The%20Cozy%20Knot%20%26%20Co.">Send an enquiry <span>↗</span></a><small>Contact details will be updated with the business's official information.</small></div></section>
+    <section class="contact-section" id="contact">
+      <div class="contact-intro"><p class="eyebrow">GOT A LITTLE SOMETHING IN MIND?</p><h2>Tell us what<br>we're <em>celebrating.</em></h2><p>Custom cake, thoughtful hamper or a whole celebration plan. We'd love to hear what you're dreaming up.</p></div>
+      <div class="contact-card"><span class="contact-flower" aria-hidden="true">✳</span><small>LET'S START WITH HELLO</small><h3>Something lovely<br>starts here.</h3><p>For orders, custom requests and corporate gifting enquiries, reach out to our team.</p><a class="button button-dark" href="mailto:hello@thecozyknot.example?subject=An%20enquiry%20for%20The%20Cozy%20Knot%20%26%20Co.">Send an enquiry <span aria-hidden="true">↗</span></a><em>Official contact details will be added before launch.</em></div>
+    </section>
   </main>
 
-  <footer class="site-footer"><a class="brand footer-brand" href="#"><span class="brand-mark">tk<span>✳</span></span><span class="brand-name">the cozy knot <small>&amp; co.</small></span></a><p>Thoughtful little things. Beautiful big moments.</p><span>© <span id="year"></span> The Cozy Knot &amp; Co.</span></footer>
+  <footer class="site-footer"><a class="brand footer-brand" href="#"><span class="brand-symbol" aria-hidden="true">ck<span>✳</span></span><span class="brand-wordmark">the cozy knot <small>&amp; company</small></span></a><p>Thoughtful little things. Beautiful big moments.</p><div class="footer-right"><span>MADE WITH A LITTLE EXTRA LOVE</span><b>© <span id="year"></span> THE COZY KNOT &amp; CO.</b></div></footer>
   <script src="script.js"></script>
 </body>
 </html>
